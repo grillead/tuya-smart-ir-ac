@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configuration Tuya Smart IR AC (Local)",
+        "description": "Configurez votre climatisation IR Tuya en mode local",
+        "data": {
+          "name": "Nom de l'appareil",
+          "hub_ip": "Adresse IP du Hub IR",
+          "hub_id": "ID du Hub IR",
+          "hub_local_key": "Clé locale du Hub",
+          "device_id": "ID du Device (optionnel)",
+          "device_local_key": "Clé locale du Device (optionnel)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossible de se connecter au hub. Vérifiez l'IP, l'ID et la clé locale.",
+      "unknown": "Erreur inconnue. Vérifiez les logs."
+    },
+    "abort": {
+      "already_configured": "Cet appareil est déjà configuré."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options Tuya Smart IR AC (Local)",
+        "description": "Configurez les options de mise à jour",
+        "data": {
+          "update_interval": "Intervalle de mise à jour (secondes)"
+        }
+      }
+    }
+  }
+}
